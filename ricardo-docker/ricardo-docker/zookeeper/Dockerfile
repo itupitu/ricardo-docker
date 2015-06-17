@@ -1,6 +1,6 @@
 # Dockerfile to setup a ZooKeeper 3.4.6 image
 FROM centos:6.6
-MAINTAINER sbardy <szabolcs.bardy@ricardo.ch>
+MAINTAINER sbardy
 
 ENV ZOOKEEPER_VERSION 3.4.6
 ENV ZOOKEEPER zookeeper-$ZOOKEEPER_VERSION

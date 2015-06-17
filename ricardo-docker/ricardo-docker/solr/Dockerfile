@@ -1,6 +1,6 @@
 # Dockerfile to setup a Solr v5 image
 FROM centos:6.6
-MAINTAINER sbardy <szabolcs.bardy@ricardo.ch>
+MAINTAINER sbardy
 
 ENV SOLR_VERSION 5.1.0
 ENV SOLR solr-$SOLR_VERSION
